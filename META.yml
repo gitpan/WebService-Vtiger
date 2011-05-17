@@ -1,0 +1,21 @@
+---
+abstract: 'Interface to vtiger5.2 webservices'
+author:
+  - 'Monsenhor <monsenhor@cpan.com>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WebService-Vtiger
+provides:
+  WebService::Vtiger:
+    file: lib/WebService/Vtiger.pm
+    version: 1.0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 1.0
