@@ -8,7 +8,10 @@ my $builder = Module::Build->new(
     dist_author         => q{Monsenhor <monsenhor@cpan.com>},
     dist_version_from   => 'lib/WebService/Vtiger.pm',
     build_requires => {
-        'Test::More' => 0,
+        'Test::More'     => 0,
+        'LWP::UserAgent' => 0,
+        'JSON'           => 0,
+        'Digest::MD5'    => 0
     },
     add_to_cleanup      => [ 'WebService-Vtiger-*' ],
     create_makefile_pl => 'traditional',

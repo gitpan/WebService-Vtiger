@@ -5,6 +5,9 @@ WriteMakefile
           'NAME' => 'WebService::Vtiger',
           'VERSION_FROM' => 'lib/WebService/Vtiger.pm',
           'PREREQ_PM' => {
+                           'Digest::MD5' => 0,
+                           'JSON' => 0,
+                           'LWP::UserAgent' => 0,
                            'Test::More' => 0
                          },
           'INSTALLDIRS' => 'site',
